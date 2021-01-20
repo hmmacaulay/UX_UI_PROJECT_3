@@ -17,4 +17,4 @@ The goal of this project is to help people connect in more human and fun ways ov
 ### Project Links
 - [Google Slides](url-link-here)
 - [Figma Prototypes](https://www.figma.com/file/4LTB703Z6GTEpNG723MwIg/5-UX-Brainiacs?node-id=27%3A20
-- [Live Web Page](https://username.github.io/UX_UI_PROJECT_3/)
+- [Live Web Page](https://hmmacaulay.github.io/UX_UI_PROJECT_3/)
