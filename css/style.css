@@ -1,0 +1,81 @@
+
+* {
+ border-color: red;
+ border-style: solid;
+}
+html {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    height: 100%;
+    margin: 0px;
+}
+.bg-lite {
+    background-color: red !important;
+}
+
+/* card stuff */
+/* 
+@import "nib"
+
+/* html, body  
+  height 100%
+  margin 0 */
+
+.cards {
+    background: #00A5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    perspective: 800px;
+    border-radius: 4px;
+
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+
+
+.card_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    transform: rotate(180deg)
+} 
+.flipped {
+    transform: rotateY(180deg)
+}
+  
+/* .card
+  width 100%
+  height 100%
+  position absolute
+  transform-style preserve-3d
+  transition transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+  border-radius 6px
+  box-shadow 0 6px 16px rgba(0,0,0,0.15)
+  cursor pointer */
