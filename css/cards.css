@@ -1,0 +1,117 @@
+button:active {
+  border-style: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+html, body {
+  background-color: #F6E2D5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  color: #F9E79F;
+}
+
+#board {
+  position: relative;
+  margin-top: 91px;
+  min-width: 500px;
+  min-height: 400px;
+  overflow: hidden;
+}
+#board.dating .card {
+  background-image: url(/images/bckg_ocean.png);
+}
+
+button.new-question {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 150px;
+  margin-top: -50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: transparent;
+}
+button.new-question img {
+  width: 85px; 
+  height: 85px; 
+}
+button:visited {
+  border: none;
+  border-radius: 50%;
+}
+.card {
+  position: absolute;
+  overflow: hidden;
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  background-size: cover;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 3px 3px 7px #00000040;
+  padding: 1em;
+
+  opacity: 0;
+  left: 110%;
+  top: 50%;
+  margin-top: -200px;
+}
+.card.primary {
+  opacity: 1;
+  left: 50%;
+  margin-left: -125px;
+  transition: left .6s;
+  z-index: 0;
+}
+.card.sliding {
+  z-index: 100;
+}
+.category-card {
+  width: 250px;
+  height: 400px;
+  background-size: cover;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 24px;
+  background-color: #fff;
+  box-shadow: 3px 3px 7px #00000040;
+  padding: 1em;
+}
+a.category-card {
+  text-decoration: none;
+}
+.category-card .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.category-card.professional {
+  background-image: url(/images/bckg_ocean.png);
+}
+.category-card.dating {
+  background-image: url(/images/bckg_ocean.png);
+}
+.category-card.random {
+  background-image: url(/images/bckg_ocean.png);
+}
