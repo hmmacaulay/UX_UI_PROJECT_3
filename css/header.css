@@ -1,3 +1,8 @@
+* {
+    border-color: red;
+    border-style: solid;
+}
+
 body {
     background-color: #F6E2D5;
     margin: 15px;
