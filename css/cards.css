@@ -38,7 +38,7 @@ h1 {
   overflow: hidden;
 }
 #board.dating .card {
-  background-image: url(/images/bckg_ocean.png);
+  background-image: url(../images/bckg_ocean.png);
 }
 
 button.new-question {
