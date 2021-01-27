@@ -1,11 +1,23 @@
-* {
+/* * {
     border-color: red;
     border-style: solid;
+} */
+html {
+    height: 100%;
 }
-
 body {
     background-color: #F6E2D5;
     margin: 15px;
+    height: 100%;
+}
+.navbar {
+    border-top: #F6E2D5;
+    border-left: #F6E2D5;
+    border-right: #F6E2D5;
+    border-bottom: white;
+    border-style: solid;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .navbar-nav { 
     margin-left: auto; 
@@ -17,23 +29,52 @@ a {
 .navbar-light .navbar-nav .nav-link {
     color: #E05344;
     text-decoration: none;
+    margin: 20px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link.active {
     color: #62626D;
     text-decoration: none;
 }
+.lets_play {
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: bold;
+}
+/* hover state for the "lets play button */
+.lets_play:hover {
+    background-color: #EB5757;
+    color: white !important;
+    font-style: bold;
+}
 .navbar-light .navbar-nav .nav-link:hover {
     color: #62626D;
+}
+.overview-content {
+    padding: 100px;
 }
 h1 {
     font-size: 45px;
     color: #E05344;
     margin-top: 100px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 h2 {
     font-size: 45px;
     color: #E05344;
+    font-family: 'Nunito Sans', sans-serif;
 }
 ul {
     color: #E05344;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* footer */
+#footer {
+    align-items: left;
+    margin-left: auto;
+    padding: 50px;
+    background-color:#F6E2D5 !important;
 }

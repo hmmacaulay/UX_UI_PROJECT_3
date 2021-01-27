@@ -1,8 +1,8 @@
 
-* {
+/* * {
   border-color: red;
   border-style: solid;
-}
+} */
 
 button:active {
   border-style: inherit;
@@ -22,7 +22,7 @@ html, body {
 
 body {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 16px;
 }
 
 h1 {
@@ -32,11 +32,12 @@ h1 {
 
 #board {
   position: relative;
-  margin-top: 91px;
+  margin-top: 200px;
   min-width: 500px;
-  min-height: 400px;
+  min-height: 100vh; 
   overflow: hidden;
 }
+
 #board.dating .card {
   background-image: url(../images/bckg_ocean.png);
 }
@@ -65,8 +66,10 @@ button:visited {
 .card {
   position: absolute;
   overflow: hidden;
-  width: 250px;
-  height: 400px;
+  width: 305px;
+  height: 590px;
+  /* width: 250px;
+  height: 400px; */
   margin: auto;
   background-size: cover;
   border-radius: 24px;
@@ -76,7 +79,6 @@ button:visited {
   background-color: #fff;
   box-shadow: 3px 3px 7px #00000040;
   padding: 1em;
-
   opacity: 0;
   left: 110%;
   top: 50%;
@@ -93,8 +95,10 @@ button:visited {
   z-index: 100;
 }
 .category-card {
-  width: 250px;
-  height: 400px;
+  /* width: 250px;
+  height: 400px; */
+  width: 305px;
+  height: 590px;
   background-size: cover;
   display: inline-block;
   margin: 0 10px;
@@ -113,11 +117,11 @@ a.category-card {
   height: 100%;
 }
 .category-card.professional {
-  background-image: url(/images/bckg_ocean.png);
+  background-image: url(images/bckg_ocean.png);
 }
 .category-card.dating {
-  background-image: url(/images/bckg_ocean.png);
+  background-image: url(images/bckg_ocean.png);
 }
 .category-card.random {
-  background-image: url(/images/bckg_ocean.png);
+  background-image: url(images/bckg_ocean.png);
 }
