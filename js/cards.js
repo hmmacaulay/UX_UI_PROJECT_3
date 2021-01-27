@@ -1,7 +1,31 @@
 // questions: do we want to have separate vars when dating, profesh, ranom are picked, OR for sakes of coding quickly, just have them all pop up same questions//
 let allQuestions = {
-  dating: [],
-  professional: [],
+  dating: [
+    "What have you created that you are most proud of?", 
+    "What's the best thing you got from one of your parents?", 
+    "What bends your mind every time you think about it?", 
+    "In your group of friends, what role do you play?", 
+    "What incredibly strong opinion do you have that is completely unimportant in the grand scheme of things?", 
+    "What's your favorite piece of clothing you own?",
+    "What fictional place would you most like to go to?", 
+    "What's one place you've travelled that you never want to go back to?", 
+    "When people come to you for help, what do they usually want help with?", 
+    "What are you interested in that most people haven't heard of?", 
+    "Mountains or ocean?",
+  ],
+  professional: [
+    "What have you created that you are most proud of?", 
+    "What's the best thing you got from one of your parents?", 
+    "What bends your mind every time you think about it?", 
+    "In your group of friends, what role do you play?", 
+    "What incredibly strong opinion do you have that is completely unimportant in the grand scheme of things?", 
+    "What's your favorite piece of clothing you own?",
+    "What fictional place would you most like to go to?", 
+    "What's one place you've travelled that you never want to go back to?", 
+    "When people come to you for help, what do they usually want help with?", 
+    "What are you interested in that most people haven't heard of?", 
+    "Mountains or ocean?",
+  ],
   random: [
   "What have you created that you are most proud of?", 
   "What's the best thing you got from one of your parents?", 

@@ -16,8 +16,8 @@ body {
     border-right: #F6E2D5;
     border-bottom: white;
     border-style: solid;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .navbar-nav { 
     margin-left: auto; 
@@ -77,4 +77,12 @@ ul {
     margin-left: auto;
     padding: 50px;
     background-color:#F6E2D5 !important;
+}
+#category_header {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    position: relative;
+    padding-top: 20vh;
+    margin: 20px;
 }

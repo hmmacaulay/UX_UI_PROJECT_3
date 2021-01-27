@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hi</title>
+    <title>Random Qs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/cards.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/cards.css">
 </head>
 <body>
-<!--TOP NAV-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #F6E2D5">
-        <a class="navbar-brand" href="index.html">
-            <img src="images/hi.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">about</a>
-            <a class="nav-item nav-link" href="#">tips</a>
-            <a class="nav-item nav-link" href="#">contact us</a>
-            <a class="nav-item nav-link" href="#">FAQs</a>
-            <a class="nav-item nav-link" href="categories.html">let's play</a>
-        </div>
-        </div>
-    </nav>
-
+<!--THIS IS THE CORRECT TOP NAV -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #F6E2D5">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/hi.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="about.html">about</a>
+        <a class="nav-item nav-link" href="#">tips</a>
+        <a class="nav-item nav-link" href="#">FAQs</a>
+        <a class="nav-item nav-link lets_play" href="categories.html">let's play</a>
+    </div>
+    </div>
+</nav>
+<!-- board -->
     <div id="board" class="dating">
         <button class="new-question" onClick="flipCard()">
-            <img src="images/continue_icon.png" alt="next">
+            <img src="images/PlayPage_KeepGoingArrow_Random.png" alt="next">
         </button>
     </div>
+    <!-- <img id="playimage" src="images/PlayPage_SkipButton_Random.png"> -->
 
     
     <script src="js/cards.js"></script>
