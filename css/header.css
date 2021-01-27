@@ -36,6 +36,22 @@ a {
     color: #62626D;
     text-decoration: none;
 }
+.dropdown-menu {
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.dropdown-item {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #454548, 100%;
+}
+.dropdown-item:hover {
+    background-color: #E05344;
+    color: white;
+    border-radius: 100px;
+}
 .lets_play {
     background-color: #FFFFFF;
     border-radius: 100px;
@@ -43,6 +59,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     font-style: bold;
+    box-shadow: 1px 1px 100px #6b5f5f40;
 }
 /* hover state for the "lets play button */
 .lets_play:hover {
@@ -93,4 +110,43 @@ ul {
     font-weight: 300;
     font-size: 20px;
     color: #E05344;
+}
+
+ul {
+    list-style-image: url(../images/star_b.svg);
+    justify-content: center;
+    align-items: center;
+}
+/* just a couple of grids for ya  */
+
+.image_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5%;
+    height: 300vh;
+    width: 500vh;
+    align-items: center;
+    padding: 100px 10%;
+    grid-template-areas: 
+    "itemOne itemOne itemTwo itemTwo itemTwo"
+    "itemOne itemOne itemTwo itemTwo itemTwo"
+    "itemOne itemOne itemTwo itemTwo itemTwo"
+    "itemThree itemThree itemThree itemThree itemThree"
+    "itemThree itemThree itemThree itemThree itemThree" ;
+}
+#item_one {
+    grid-area: itemOne;
+    max-height: 100%;
+    max-width: 100%;
+}
+#item_two {
+    grid-area: itemTwo;
+    height: auto;
+    max-width: 100%;
+}
+#item_three {
+    grid-area: itemThree;
+    height: auto;
+    max-width: 100%;
 }

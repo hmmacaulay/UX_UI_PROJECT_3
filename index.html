@@ -9,24 +9,33 @@
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-<!--THIS IS THE CORRECT TOP NAV v2-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #F6E2D5">
-        <a class="navbar-brand" href="index.html">
-            <img src="images/hi.png" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="about.html">about</a>
-            <a class="nav-item nav-link" href="tips.html">tips</a>
-            <a class="nav-item nav-link lets_play" href="categories.html">let's play</a>
-        </div>
-        </div>
-    </nav>
-
+<!--THIS IS THE CORRECT TOP NAV v3 -->
+<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #F6E2D5">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/hi.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="about.html">about</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            tips
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tips.html"> how to play </a>
+              <a class="dropdown-item" href="zoom_fat.html"> fight zoom fatigue</a>
+              <!-- <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"> faq </a> -->
+            </div>
+        </li>
+        <a class="nav-item nav-link lets_play" href="categories.html">let's play</a>
+    </div>
+    </div>
+</nav>
 <!--content-->
     <div class="overview-content">
         <h1>we're here for you.</h1>
