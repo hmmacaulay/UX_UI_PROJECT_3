@@ -86,3 +86,11 @@ ul {
     padding-top: 20vh;
     margin: 20px;
 }
+/* about */
+#about_content {
+    padding: 10vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #E05344;
+}
