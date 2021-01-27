@@ -94,7 +94,6 @@ ul {
     font-family: 'Nunito Sans', sans-serif;
 }
 p {
-    color: #E05344;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -115,6 +114,9 @@ p {
 }
 .hero2 .imgBx {
     margin-left: 35px;
+}
+.hero2 p {
+    color: #E05344;
 }
 /* HOME STRIP 3 */
 .videobanner {
