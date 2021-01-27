@@ -150,3 +150,25 @@ ul {
     height: auto;
     max-width: 100%;
 }
+/* footer */
+
+#footer a {
+    text-decoration: none;
+    color: #E05344;
+    font-size: 16px;
+}
+#footer {
+    align-items: left;
+    justify-content: left;
+}
+.navbar-brand {
+    padding-left: 10px;
+}
+#lady {
+    font-size: 10px !important;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding: 5px;
+    color: #E05344;
+}
