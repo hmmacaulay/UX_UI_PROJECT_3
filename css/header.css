@@ -90,6 +90,10 @@ ul {
     color: #E05344;
     font-family: 'Nunito Sans', sans-serif;
 }
+p {
+    color: #E05344;
+    font-family: 'Nunito Sans', sans-serif;
+}
 /* home stuff */
 .homeFlexContainer {
     display: flex;
@@ -101,9 +105,35 @@ ul {
 .here4you {
     flex: 1;
 }
-.fauxVideo {
-    margin-top: 30px;
+/*HOME STRIP 2 */
+.hero2 {
+    position: relative;
+    width: 100%;
+    display: flex;
 }
+.hero2 .contentBx2 {
+    padding: 100px;
+    width: 50%;
+    flex: 1;
+}
+.hero2 .contentBx2 h1 {
+    margin-top: 0;
+}
+.hero2 .imgBx {
+    margin-left: 35px;
+}
+
+/* HOME STRIP 3 */
+.videobanner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 /* footer */
 #footer {
     align-items: left;
