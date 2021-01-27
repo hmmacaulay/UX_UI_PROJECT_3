@@ -9,6 +9,8 @@ body {
     background-color: #F6E2D5;
     height: 100%;
 }
+
+/* NAV */
 .navbar {
     border-top: #F6E2D5;
     border-left: #F6E2D5;
@@ -63,7 +65,6 @@ a:hover {
     font-style: bold;
     box-shadow: 1px 1px 100px #6b5f5f40;
 }
-/* hover state for the "lets play button */
 .lets_play:hover {
     background-color: #EB5757;
     color: white !important;
@@ -75,6 +76,8 @@ a:hover {
 .overview-content {
     padding: 100px;
 }
+
+/* GENERAL PAGE STYLING */
 h1 {
     font-size: 45px;
     color: #E05344;
@@ -94,17 +97,8 @@ p {
     color: #E05344;
     font-family: 'Nunito Sans', sans-serif;
 }
-/* home stuff */
-.homeFlexContainer {
-    display: flex;
-    justify-content: space-between;
-}
-.flexImg2 {
-    flex: 1;
-}
-.here4you {
-    flex: 1;
-}
+
+/* HOME */
 /*HOME STRIP 2 */
 .hero2 {
     position: relative;
@@ -122,7 +116,6 @@ p {
 .hero2 .imgBx {
     margin-left: 35px;
 }
-
 /* HOME STRIP 3 */
 .videobanner {
     position: relative;
@@ -149,7 +142,10 @@ p {
     padding-top: 20vh;
     margin: 20px;
 }
-/* about */
+
+/* INDEPENDENT PAGE STLYING */
+
+/* ABOUT */
 #about_content {
     padding: 10vh;
     font-family: 'Nunito Sans', sans-serif;
@@ -163,8 +159,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
-/* just a couple of grids for ya  */
 
+/* just a couple of grids for ya  */
 .image_grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -196,7 +192,7 @@ ul {
     height: auto;
     max-width: 100%;
 }
-/*contact page - literally cannot figure out margin problems!! */
+/* CONTACT / SUBMIT QUESTION */
 #contact_content {
     padding: 10vh;
     font-family: 'Nunito Sans', sans-serif;
@@ -206,7 +202,7 @@ ul {
 }
 
 
-/* footer */
+/* footer -- why are there 2?? */
 
 #footer a {
     text-decoration: none;
