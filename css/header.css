@@ -160,12 +160,14 @@ ul {
 #footer {
     align-items: left;
     justify-content: left;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .navbar-brand {
     padding-left: 10px;
 }
 #lady {
     font-size: 10px !important;
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     align-items: right;
     justify-content: center;
