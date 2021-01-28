@@ -140,9 +140,8 @@ p {
     display: flex;
     justify-content: left;
     text-align: left;
-    position: relative;
     padding-top: 20vh;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 /* INDEPENDENT PAGE STLYING */

@@ -16,6 +16,9 @@ html, body {
   background-color: #F6E2D5;
   height: 100%;
 }
+body {
+  height: 100%;
+}
 
 * {
   box-sizing: border-box;
@@ -34,19 +37,22 @@ h1 {
 #board {
   position: relative;
   /* margin-top: 10vh; */
-  min-width: 100vw;
-  min-height: 100vh; 
+  min-width: 100%;
+  min-height: 710px; 
   overflow: hidden;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   display: flex;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 0px;
 }
 
 @media only screen and (max-width: 1000px) {
   
   #board {
     position: relative;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     min-width: 100vw;
     min-height: 100vh; 
     overflow: hidden;
@@ -106,8 +112,9 @@ button:visited {
   padding: 1em;
   opacity: 0;
   left: 110%;
-  /* top: 50%;
-  margin-top: -200px; */
+  /* top: 50%; */
+  margin-top: 200px;
+
 }
 .card.primary {
   opacity: 1;
@@ -115,6 +122,7 @@ button:visited {
   margin-left: -125px;
   transition: left .6s;
   z-index: 0;
+  margin-top: 150px !important;
 }
 .card.sliding {
   z-index: 100;
