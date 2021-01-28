@@ -139,13 +139,7 @@ p {
     overflow: hidden;
 }
 
-/* footer */
-#footer {
-    align-items: left;
-    margin-left: auto;
-    padding: 50px;
-    background-color:#F6E2D5 !important;
-}
+
 #category_header {
     display: flex;
     justify-content: left;
@@ -214,6 +208,13 @@ ul {
 
 
 /* footer -- why are there 2?? */
+
+#footer {
+    align-items: left;
+    margin-left: auto;
+    padding: 50px;
+    background-color:#F6E2D5 !important;
+}
 
 #footer a {
     text-decoration: none;
