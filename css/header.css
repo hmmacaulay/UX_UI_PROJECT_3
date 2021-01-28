@@ -206,6 +206,23 @@ ul {
     color: #E05344;
 }
 
+/* ZOOM FAT */
+.ZF_h4 {
+    font-weight: 100;
+    color: black;
+}
+.ZF_p {
+    font-weight: normal;
+}
+
+.fatContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.factoid {
+    flex: 1;
+}
+
 
 /* footer -- why are there 2?? */
 
@@ -237,4 +254,10 @@ ul {
     justify-content: center;
     padding: 5px;
     color: #E05344;
+}
+@media screen and (max-width: 969px) {
+    /* ZOOM FAT */
+    .fatContainer {
+        flex-direction: column;
+    }
 }
