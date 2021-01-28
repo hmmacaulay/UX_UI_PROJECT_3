@@ -88,3 +88,16 @@ function flipCard() {
     sliding = false;
   }, 600);
 }
+
+
+///hover states for the cards
+$(".category-card").mouseover(function() {
+  $(this).animate({"width":"320px", "height":"600px"}, "fast", "linear");
+});
+$(".category-card").mouseleave(function() {
+  $(this).animate({"width":"300px", "height":"550px"}, "fast", "linear");
+});
+// $(".category-card").mouseleave(function() {
+//   $(this).css({"width": "300px", "height" : "550px"}).fadeOut();
+// });
+

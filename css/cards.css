@@ -14,6 +14,7 @@ button:focus {
 
 html, body {
   background-color: #F6E2D5;
+  height: 100%;
 }
 
 * {
@@ -32,10 +33,28 @@ h1 {
 
 #board {
   position: relative;
-  margin-top: 5vh;
+  /* margin-top: 10vh; */
   min-width: 100vw;
   min-height: 100vh; 
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  #board {
+    position: relative;
+    margin-top: 10vh;
+    min-width: 100vw;
+    min-height: 100vh; 
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
 }
 
 #board.dating .card {
@@ -112,11 +131,13 @@ button:visited {
   background-color: #fff;
   box-shadow: 3px 3px 20px #6b5f5f40;
   padding: 1em;
+  margin-left: 20px;
+  margin-right: 20px;
   /* padding-top: 100px; */
 }
 .category-card:hover {
-  width: 320px;
-  height: 600px; 
+  /* width: 320px;
+  height: 600px;  */
   box-shadow: 5px 5px 10px #6b5f5f40;
   transition: .3s;
   /* need to make the animation happen with js so that its even */

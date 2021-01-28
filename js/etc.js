@@ -11,3 +11,4 @@
 // });
 
 $("#nav_bar").load("../nav.html");
+
