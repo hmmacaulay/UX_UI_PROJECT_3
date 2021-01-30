@@ -91,7 +91,7 @@ a:hover {
 h1 {
     font-size: 45px;
     color: #E05344;
-    margin-top: 100px;
+    margin: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
 h2 {
@@ -108,26 +108,47 @@ p {
 }
 
 /* HOME */
-/*HOME STRIP 2 */
-.hero2 {
+
+.hero {
     position: relative;
     width: 100%;
     display: flex;
+    padding: 0 72px 72px 72px;
+    max-width: 100em;
+    margin: 0 auto;
 }
-.hero2 .contentBx2 {
+.hero.overview {
+    margin-top: 200px;
+}
+.contentBox {
+    margin-left: 100px;
+    margin-right: 0;
+    min-width: 30em;
+}
+.overview .contentBox {
+    margin-right: 100px;
+    margin-left: 0;
+}
+.imgBox {
+    display: flex;
+    align-items: center;
+}
+/*HOME STRIP 2 */
+.hero2 .contentBox {
     padding: 100px;
     width: 50%;
     flex: 1;
 }
-.hero2 .contentBx2 h1 {
+.hero2 .contentBox h1 {
     margin-top: 0;
 }
-.hero2 .imgBx {
+.hero2 .imgBox {
     margin-left: 35px;
 }
 .hero2 p {
     color: #E05344;
 }
+
 /* HOME STRIP 3 */
 .videobanner {
     position: relative;
@@ -257,5 +278,8 @@ ul {
     padding: 5px;
     color: #E05344;
 }
-/*  @media screen and (max-width: 969px) { */
+@media screen and (max-width: 969px) { 
+    .imgBox {
+        display: none;
+    }
 }
