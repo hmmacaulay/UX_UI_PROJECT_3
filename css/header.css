@@ -218,9 +218,11 @@ ul {
 .fatContainer {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .factoid {
     flex: 1;
+    margin-right: 10px;
 }
 
 
@@ -255,9 +257,5 @@ ul {
     padding: 5px;
     color: #E05344;
 }
-@media screen and (max-width: 969px) {
-    /* ZOOM FAT */
-    .fatContainer {
-        flex-direction: column;
-    }
+/*  @media screen and (max-width: 969px) { */
 }
