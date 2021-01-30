@@ -5,11 +5,11 @@ let allQuestions = {
     "do you enjoy puzzles?",
     "let's talk about our hobbies",
     "what does you typical Sunday look like?",
-    "Share your favorite pick up line",
-    "What are your top 3 favorite movies?", 
+    "share your favorite pick up line",
+    "what are your top 3 favorite movies?", 
     "If you had one week of no responsibilities, what would you do?", 
-    "What is your favorite fashion trend of all time?", 
-    "Favorite 30 minutes of a typical day?", 
+    "what is your favorite fashion trend of all time?", 
+    "favorite 30 minutes of a typical day?", 
   ],
   professional: [
     "who is your hero and why?",
@@ -32,10 +32,11 @@ let allQuestions = {
     "who is your favorite actor or actress?",
     "what is your favorite video/board game and why?",
     "pineapple pizza. Yay or nay?",
+    "when was the last time you cried from happiness?",
+    "share a fun fact about yourself",
     "what is the strangest meal you’ve ever eaten?",
     "what was your favorite childhood?",
     "show the best meme you have in your phone.",
-
   ]
 };
 
