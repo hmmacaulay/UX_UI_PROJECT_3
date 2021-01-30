@@ -27,7 +27,6 @@ let allQuestions = {
 
   ],
   random: [
-    "favorite sign that sprint time has arrived?",
     "favorite thing to see or do at a typical zoo?",
     "if applicable, describe an argument you had with a sibling.",
     "who is your favorite actor or actress?",
