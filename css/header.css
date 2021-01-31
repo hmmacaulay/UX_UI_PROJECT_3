@@ -134,7 +134,7 @@ h1.top {
     margin: 0 auto;
 }
 .hero.overview {
-    margin-top: 200px;
+    margin-top: 175px;
 }
 .contentBox {
     min-width: 30em;
@@ -153,7 +153,6 @@ h1.top {
 /*HOME STRIP 2 */
 .hero .imgBox {
     margin-right: 100px;
-    overflow: hidden;
 }
 .home_p {
     font-family: 'Nunito Sans', sans-serif;
@@ -171,7 +170,6 @@ h1.top {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 
@@ -336,6 +334,37 @@ ul {
 }
 
 @media screen and (max-width: 400px) { 
+    /* general styling */
+    h1 {
+        font-size: 30px;
+        color: #E05344;
+        margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    h2 {
+        font-size: 25px;
+        color: #E05344;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    ul {
+        color: #E05344;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    p {
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    h1.top {
+        margin-top: 60px;
+    }
+    
+    /*/ hOME */
+    .hero.overview {
+        margin-top: 140px;
+    }
+    .strip3 {
+        display: none;
+    }
+    
     /* FOOTER */
     #footer a {
         font-size: 10px;

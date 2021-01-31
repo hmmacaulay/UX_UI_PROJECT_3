@@ -77,16 +77,18 @@
 
 <!-- CONTACT US FORM -->
     <section id="contact_content">
-        
         <h1 class="top">contact us</h1>
         <p>drop questions or suggestions below, or feel free to just say hi!</p>
         
         <div class="contact container">
-                <label for="fname">first name</label>
-                <input type="text" id="fname" name="firstname" placeholder="your name..">
+            <!-- DISABLES THE BUTTON SO NO 404
+            <form action="/action_page.php">  
+                -->
+                <label for="name">first name</label>
+                <input type="text" id="name" name="name" placeholder="your name..">
             
-                <label for="subject">message</label>
-                <textarea id="subject" name="subject" placeholder="what's on your mind.." style="height:200px"></textarea>
+                <label for="message">message</label>
+                <textarea id="message" name="message" placeholder="what's on your mind.." style="height:200px"></textarea>
             
                 <input type="submit" value="send">
             </form>
@@ -101,8 +103,8 @@
         <!-- DISABLES THE BUTTON SO NO 404
             <form action="/action_page.php">  
                 -->
-            <label for="fname">category</label>
-            <input type="text" id="fname" name="firstname" placeholder="professional.. dating.. random..">
+            <label for="category">category</label>
+            <input type="text" id="category" name="category" placeholder="professional.. dating.. random..">
         
             <label for="question">your question</label>
             <textarea id="question" name="your question" placeholder="your question here.." style="height:200px"></textarea>
