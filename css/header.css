@@ -200,6 +200,7 @@ h1.top {
     font-weight: 300;
     font-size: 20px;
     color: #E05344;
+    overflow: hidden;
     /* text-decoration: none !important; */
 }
 .abt_hero_img {
@@ -212,6 +213,7 @@ h1.top {
     opacity: 1;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 ul {
     list-style-image: url(../images/star_b.svg);
@@ -312,7 +314,7 @@ ul {
 }
 
 
-/* footer -- why are there 2?? */
+/* footer */
 
 #footer {
     align-items: left;
@@ -326,6 +328,9 @@ ul {
     color: #E05344;
     font-size: 16px;
 }
+#footer a:hover {
+    color: #62626D;
+}
 #footer {
     align-items: left;
     justify-content: left;
@@ -333,6 +338,9 @@ ul {
 }
 .navbar-brand {
     padding-left: 10px;
+}
+.navbar-brand.leftspace {
+    margin-left: 10px;
 }
 #lady {
     font-size: 10px !important;
@@ -352,5 +360,8 @@ ul {
         display: flex;
         align-items: center;
     }
-
+/* FOOTER */
+    #footer a {
+        font-size: 12px;
+    }
 }
