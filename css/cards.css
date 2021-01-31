@@ -48,20 +48,6 @@ h1 {
   padding-top: 0px;
 }
 
-@media only screen and (max-width: 1000px) {
-  
-  #board {
-    position: relative;
-    /* margin-top: 10vh; */
-    min-width: 100vw;
-    min-height: 100vh; 
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-  }
-}
 
 #board.dating .card {
   background-color: white;
@@ -225,3 +211,44 @@ p.question {
   top: 495.48px;
   z-index: -100;
 } */
+
+button.new-question.mobile_next {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  #board {
+    position: relative;
+    /* margin-top: 10vh; */
+    min-width: 100vw;
+    min-height: 100vh; 
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 738px) {
+  button.new-question {
+    display: none;
+  }
+  /* button.new-question.mobile_next {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: transparent;
+  } */
+
+  /* FOOTER */
+    #footer a {
+      font-size: 12px;
+  }
+}

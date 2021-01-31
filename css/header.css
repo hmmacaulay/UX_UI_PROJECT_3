@@ -310,8 +310,7 @@ ul {
     h1 {
         font-size: 35px;
     }
-
-/* HOW TO PLAY */
+     /* HOW TO PLAY */
     .tips_h2 {
         font-weight: 100;
         margin-top: 10px;
@@ -323,7 +322,6 @@ ul {
     .tips_img {
         width: 100%;
     }
-
 /* FOOTER */
     #footer a {
         font-size: 12px;
