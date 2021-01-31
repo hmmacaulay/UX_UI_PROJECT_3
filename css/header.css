@@ -8,6 +8,7 @@ html {
 body {
     background-color: #F6E2D5;
     height: 100%;
+    
 }
 
 /* NAV */
@@ -56,9 +57,6 @@ a:hover {
     color: white;
     border-radius: 100px;
 }
-/* @media screen and (max-width: 768px) { 
-    
-    } */
 .lets_play {
     background-color: #FFFFFF;
     border-radius: 100px;
@@ -155,6 +153,7 @@ h1.top {
 /*HOME STRIP 2 */
 .hero .imgBox {
     margin-right: 100px;
+    overflow: hidden;
 }
 .home_p {
     font-family: 'Nunito Sans', sans-serif;
@@ -214,70 +213,6 @@ ul {
     align-items: center;
 }
 
-/* just a couple of grids for ya  */
-.image_grid {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2px;
-    min-height: 100vh;
-    min-width: 100vw;
-    padding: 50px;
-    grid-template-areas: 
-    "itemOne itemTwo"
-    "itemOne itemTwo"
-    "itemOne itemTwo"
-    "itemThree itemThree"
-    "itemThree itemThree" ;
-}
-#item_one {
-    grid-area: itemOne;
-    display: flex;
-    align-items: flex-start;
-    height: auto;
-    min-width: 50vh;
-    background-image: url(../images/FAQ_hide_self_view.png);
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 1;
-    /* display: flex; */
-    justify-content: left;
-    /* border-color: black;
-    border-style: solid; */
-}
-#item_two {
-    grid-area: itemTwo;
-    display: flex;
-    align-items: flex-start;
-    height: auto;
-    min-width: 50vh;
-    background-image: url(../images/FAQ_Computer\ Preview\ w\ Person.png);
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 1;
-    /* display: flex; */
-    justify-content: left;
-    /* border-color: black;
-    border-style: solid; */
-}
-#item_three {
-    grid-area: itemThree;
-    display: flex;
-    align-items: flex-start;
-    min-height: 50vh;
-    min-width: 50vh;
-    background-image: url(../images/Us_Talking.gif);
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 1;
-    /* display: flex; */
-    justify-content: left;
-    /* border-color: black;
-    border-style: solid; */
-}
 /* CONTACT / SUBMIT QUESTION */
 #contact_content {
     padding: 10vh;
@@ -292,15 +227,26 @@ ul {
     max-width: 800px;
 }
 
-/* ZOOM FAT */
-.ZF_h4 {
+/* tips - how 2 play */
+.tips_h2 {
     font-weight: 100;
+    margin-top: 10px;
     color: #62626D;
 }
-.ZF_p {
+.tips_p {
     font-weight: normal;
+
+}
+.tips_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
+/* ZOOM FAT */
 .fatContainer {
     display: flex;
     align-items: center;
@@ -309,6 +255,9 @@ ul {
 .factoid {
     flex: 1;
     margin-right: 10px;
+}
+.ZF_h4 {
+    color: #62626D;
 }
 
 
@@ -358,6 +307,23 @@ ul {
         display: flex;
         align-items: center;
     }
+    h1 {
+        font-size: 35px;
+    }
+
+/* HOW TO PLAY */
+    .tips_h2 {
+        font-weight: 100;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .tips_p {
+        font-weight: normal;
+    }
+    .tips_img {
+        width: 100%;
+    }
+
 /* FOOTER */
     #footer a {
         font-size: 12px;
