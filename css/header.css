@@ -227,6 +227,7 @@ ul {
     max-width: 800px;
 }
 
+
 /* tips - how 2 play */
 .tips_h2 {
     font-weight: 100;
@@ -325,5 +326,23 @@ ul {
 /* FOOTER */
     #footer a {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1270px) { 
+    .contact_art {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    /* FOOTER */
+    #footer a {
+        font-size: 10px;
+    }
+    #footer {
+        align-items: left;
+        margin-left: auto;
+        padding: 30px;
     }
 }
