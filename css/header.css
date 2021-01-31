@@ -70,6 +70,8 @@ a:hover {
     /* test comment */
 }
 .lets_play_home {
+    margin-top: 20px;
+    display: inline-block;
     background-color: #FFFFFF;
     border-radius: 100px;
     font-size: 40px;
@@ -137,39 +139,30 @@ h1.top {
     margin-top: 200px;
 }
 .contentBox {
-    margin-left: 100px;
-    margin-right: 0;
     min-width: 30em;
     flex: 1;
 }
 .overview .contentBox {
-    margin-right: 100px;
     margin-left: 0;
 }
 .imgBox {
     display: flex;
     align-items: center;
 }
+.rightimg .imgBox{
+    margin-left: 100px;
+}
 /*HOME STRIP 2 */
-.hero2 .contentBox {
-    padding: 100px;
-    width: 50%;
-    flex: 1;
+.hero .imgBox {
+    margin-right: 100px;
 }
-.hero2 .contentBox h1 {
-    margin-top: 0;
-}
-.hero2 .imgBox {
-    margin-left: 35px;
-}
-.hero2 p {
-    color: #E05344;
-}
-#home_p {
+.home_p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     color: #E05344;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 /* HOME STRIP 3 */
 .strip3 {
@@ -293,6 +286,11 @@ ul {
     font-size: 20px;
     color: #E05344;
 }
+.contact.container {
+    margin-left: 0;
+    padding: 0;
+    max-width: 800px;
+}
 
 /* ZOOM FAT */
 .ZF_h4 {
@@ -305,7 +303,7 @@ ul {
 
 .fatContainer {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
 }
 .factoid {
