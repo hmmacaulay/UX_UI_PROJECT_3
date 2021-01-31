@@ -61,7 +61,7 @@ button.new-question {
   border: none;
   display: inline-block;
   text-decoration: none;
-  margin-left: 150px;
+  margin-left: 140px;
   /* margin-top: -50px; */
   cursor: pointer;
   border-radius: 50%;
@@ -105,7 +105,7 @@ button:visited {
 .card.primary {
   opacity: 1;
   left: 50%;
-  margin-left: -125px;
+  margin-left: -150px;
   transition: left .6s;
   z-index: 0;
   margin-top: 150px !important;
@@ -212,15 +212,10 @@ p.question {
   z-index: -100;
 } */
 
-button.new-question.mobile_next {
-  display: none;
-}
-
 @media only screen and (max-width: 1000px) {
   
   #board {
     position: relative;
-    /* margin-top: 10vh; */
     min-width: 100vw;
     min-height: 100vh; 
     overflow: hidden;
@@ -231,10 +226,21 @@ button.new-question.mobile_next {
 }
 
 @media only screen and (max-width: 738px) {
-  button.new-question {
-    display: none;
+  #board {
+    margin-top: -33vh;
   }
-  /* button.new-question.mobile_next {
+  #board.categories {
+    margin-top: 0;
+  }
+  
+  button.new-question {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin-left: -38px;
+    margin-top: 950px;
+  }
+  /* button.new-question {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -250,5 +256,11 @@ button.new-question.mobile_next {
   /* FOOTER */
     #footer a {
       font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 997px) {
+  #board {
+    min-height: 810px; 
   }
 }

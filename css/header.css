@@ -23,6 +23,7 @@ body {
 }
 .navbar-nav { 
     margin-left: auto; 
+    text-align: center;
 }
 a {
     color: #E05344;
@@ -137,7 +138,6 @@ h1.top {
     margin-top: 175px;
 }
 .contentBox {
-    min-width: 30em;
     flex: 1;
 }
 .overview .contentBox {
@@ -251,6 +251,7 @@ ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: 30px;
 }
 .factoid {
     flex: 1;
@@ -358,18 +359,40 @@ ul {
         font-family: 'Nunito Sans', sans-serif;
     }
     p {
+        font-size: 13px;
         font-family: 'Nunito Sans', sans-serif;
     }
     h1.top {
         margin-top: 60px;
     }
+    .home_p {
+        font-size: 20px;
+    }
     
     /*/ hOME */
+    body {
+        overflow: hidden;
+    }
+    .contentBox {
+        min-width: 400px;
+        flex: 1;
+    }
     .hero.overview {
         margin-top: 140px;
     }
     .strip3 {
         display: none;
+    }
+    
+    /* ZOOM FAT */
+    .fatContainer {
+        display: none;
+    }
+    .ZF_h4 {
+        font-size: 15px;
+    }
+    .ZF_p {
+        font-size: 13px;
     }
     
     /* FOOTER */
