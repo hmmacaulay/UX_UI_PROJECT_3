@@ -100,4 +100,9 @@ $(".category-card").mouseleave(function() {
 // $(".category-card").mouseleave(function() {
 //   $(this).css({"width": "300px", "height" : "550px"}).fadeOut();
 // });
-
+$("#next").mouseover(function() {
+  $(this).animate({"width":"320px", "height":"600px"}, "fast", "linear");
+});
+$("#next").mouseleave(function() {
+  $(this).animate({"width":"300px", "height":"550px"}, "fast", "linear");
+});
