@@ -10,6 +10,14 @@ let allQuestions = {
     "If you had one week of no responsibilities, what would you do?", 
     "what is your favorite fashion trend of all time?", 
     "favorite 30 minutes of a typical day?", 
+    "do you have weird feet",
+    "how tall are you, for real",
+    "plan a date for us right now",
+    "what is the most attractive quality to you?",
+    "what was the worst date you've ever been on",
+    "what is something you wish you knew about me",
+    "what is a non-negotiable for you?",
+    "if we decided to spend $50 on dinner one night, what would we do?"
   ],
   professional: [
     "who is your hero and why?",
