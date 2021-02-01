@@ -12,3 +12,7 @@
 
 $("#nav_bar").load("../nav.html");
 
+$(".nav-link").on("click", function(){
+    $(".navbar-nav").find(".active").removeClass("active");
+    $(this).addClass("active");
+ });

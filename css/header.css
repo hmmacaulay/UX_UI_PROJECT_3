@@ -115,7 +115,22 @@ h2 {
 ul {
     color: #E05344;
     font-family: 'Nunito Sans', sans-serif;
+    list-style: none;
+    text-align: left;
+    list-style-position: inside;
+    margin: 20px;
+    list-style-image: url(../images/Stars.svg);
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    padding-left: 20px;
 }
+/* li {
+    background-image: url(../images/star_b.svg);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 10px;
+} */
 p {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -206,11 +221,9 @@ h1.top {
     justify-content: center;
     overflow: hidden;
 }
-ul {
-    list-style-image: url(../images/star_b.svg);
-    justify-content: center;
-    align-items: center;
-}
+/* ul {
+
+} */
 
 /* CONTACT / SUBMIT QUESTION */
 #contact_content {
@@ -244,8 +257,47 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 0 0.25rem rgb(239 169 153 / 25%);
 }
-
+.accordion-font {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #E05344 !important;
+}
+/* .accordion-button:active {
+    border-style: solid;
+    border-color: #E05344 !important;
+} */
+.accordion-button:not(.collapsed) {
+    color: #E05344;
+    background-color: #D1B9B5;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #EBCFE0 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(239 169 153 / 25%);
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 2rem;
+    color: #62626D;
+    background-color: transparent;
+    border: 3px solid rgba(239,169,153,.125);
+    border-radius: 20px !important;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+#how_to_play {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* ZOOM FAT */
 .fatContainer {
     display: flex;
