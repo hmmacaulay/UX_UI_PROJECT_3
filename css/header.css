@@ -140,7 +140,7 @@ ul {
     text-align: left;
     list-style-position: inside;
     margin: 20px;
-    list-style-image: url(../images/Stars.svg);
+    list-style-image: url(../images/star_b.svg);
     justify-content: center;
     align-items: center;
     line-height: 50px;
@@ -154,6 +154,7 @@ ul {
 } */
 p {
     font-family: 'Nunito Sans', sans-serif;
+    color: #454548;
 }
 h1.top {
     margin-top: 100px;
