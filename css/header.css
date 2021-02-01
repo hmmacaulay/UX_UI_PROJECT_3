@@ -495,9 +495,10 @@ h1.top {
     }
     
     /*/ hOME */
-    body {
-        /* overflow: hidden; */
-    }
+    /* body {
+        /* overflow: hidden; 
+        I think this might be causing the non scrolling issue.
+    } */
     .contentBox {
         min-width: 400px;
         flex: 1;
