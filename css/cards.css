@@ -66,16 +66,17 @@ button.new-question {
   cursor: pointer;
   border-radius: 50%;
   background-color: transparent;
+  /* box-shadow: 0 0 0 0.25rem rgb(239 169 153 / 25%); */
 }
 button.new-question img {
   width: 205px; 
   height: 190px; 
 }
-/* button.new-question img:hover{
+button.new-question img:hover{
   width: 210px; 
   height: 200px; 
   transition: .3s;
-} */
+}
 button:visited {
   border: none;
   border-radius: 50%;
