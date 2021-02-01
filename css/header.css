@@ -496,7 +496,7 @@ h1.top {
     
     /*/ hOME */
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .contentBox {
         min-width: 400px;
