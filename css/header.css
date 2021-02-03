@@ -90,7 +90,6 @@ a:hover {
 }
 .lets_play_home {
     margin-top: 20px;
-    color: #7082AF !important;
     display: inline-block;
     background-color: #FFFFFF;
     border-radius: 100px;
@@ -258,6 +257,7 @@ h1.top {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden; 
 }
 
 
@@ -459,7 +459,10 @@ h1.top {
         display: none;
     }
 }
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 750px) { 
+    .home_p {
+        font-size: 15px;
+    }
     .strip3 {
         display: none;
     }
@@ -491,7 +494,7 @@ h1.top {
         margin-top: 60px;
     }
     .home_p {
-        font-size: 20px;
+        font-size: 12px;
     }
     
     /*/ hOME */
@@ -530,4 +533,17 @@ h1.top {
         margin-left: auto;
         padding: 30px;
     }
+}
+
+@media screen and (max-width: 375px) {
+
+/* FOOTER */
+#footer a {
+    font-size: 10px;
+}
+#footer {
+    align-items: left;
+    margin-left: auto;
+    padding: 10px;
+}
 }
