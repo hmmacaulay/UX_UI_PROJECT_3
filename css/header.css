@@ -216,8 +216,8 @@ h1.top {
     position: relative;
     width: 100%;
     display: flex;
-    padding: 0 72px 72px 72px;
-    max-width: 100em;
+    /* padding-top: 30vh; */
+    /* max-width: 100em; */
     margin: 0 auto;
 }
 .hero.overview {
