@@ -128,7 +128,6 @@ button:visited {
   padding: 1em;
   margin-left: 20px;
   margin-right: 20px;
-  /* padding-top: 100px; */
 }
 .category-card:hover {
   /* width: 320px;
@@ -224,6 +223,12 @@ p.question {
     align-items: center;
     flex-direction: column;
   }
+}
+@media only screen and (max-width: 400px) {
+  
+.category-card {
+  margin-top: 20px;
+}
 }
 
 @media only screen and (max-width: 738px) {
