@@ -171,9 +171,11 @@ h1.top {
     background-color: #F6E2D5;
     top: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 20vh;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .preloader_quick {
@@ -187,10 +189,13 @@ h1.top {
     align-items: center;
     justify-content: center;
     padding-top: 20vh;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .preloader p {
     display: flex;
+    flex-direction: row;
     color: #7082AF;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 #pre_load_img {
@@ -234,17 +239,18 @@ h1.top {
     flex-direction: column;
 }
 .overview .contentBox {
-    margin-left: 0;
+    margin-left: 10px
 }
 .imgBox {
     display: flex;
     align-items: center;
+    margin-right: 10px;
+    padding: 40px;
+    padding-top: 0px;
 }
-.rightimg .imgBox{
-    margin-left: 100px;
-}
+
 /*HOME STRIP 2 */
-.hero .imgBox {
+.hero {
     margin-right: 100px;
 }
 .home_p {
@@ -273,7 +279,7 @@ h1.top {
     justify-content: left;
     text-align: left;
     padding-top: 20vh;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 /* INDEPENDENT PAGE STLYING */
