@@ -129,6 +129,12 @@ button:visited {
   margin-left: 20px;
   margin-right: 20px;
 }
+#category_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+}
 .category-card:hover {
   /* width: 320px;
   height: 600px;  */
