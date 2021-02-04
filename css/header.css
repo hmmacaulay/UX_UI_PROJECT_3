@@ -143,7 +143,7 @@ h2 {
 }
 ul {
     color: #E05344;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Nunito Sans', sans-serif;
     list-style: none;
     text-align: left;
@@ -352,7 +352,7 @@ h1.top {
 .accordion-font {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: .5em;
     color: #E05344 !important;
 }
 /* .accordion-button:active {
@@ -375,7 +375,7 @@ h1.top {
     align-items: center;
     width: 100%;
     padding: 1rem 1.25rem;
-    font-size: 1.5em;
+    font-size: .6em;
     color: #62626D;
     background-color: transparent;
     border: 3px solid rgba(239,169,153,.125);
