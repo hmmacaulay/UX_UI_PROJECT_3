@@ -230,7 +230,7 @@ p.question {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 411px) {
   
 .category-card {
   margin-top: 20px;
@@ -267,7 +267,7 @@ p.question {
 
   /* FOOTER */
     #footer a {
-      font-size: 12px;
+      font-size: 1em;
   }
 }
 

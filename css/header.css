@@ -131,18 +131,19 @@ a:hover {
 
 /* GENERAL PAGE STYLING */
 h1 {
-    font-size: 45px;
+    font-size: 2.5em;
     color: #E05344;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
 }
 h2 {
-    font-size: 45px;
+    font-size: 2em;
     color: #E05344;
     font-family: 'Nunito Sans', sans-serif;
 }
 ul {
     color: #E05344;
+    font-size: 1.5em;
     font-family: 'Nunito Sans', sans-serif;
     list-style: none;
     text-align: left;
@@ -259,7 +260,7 @@ h1.top {
 .home_p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1em;
     color: #E05344;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -318,7 +319,7 @@ h1.top {
     padding: 10vh;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1em;
     color: #E05344;
 }
 .contact.container {
@@ -351,7 +352,7 @@ h1.top {
 .accordion-font {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.5em;
     color: #E05344 !important;
 }
 /* .accordion-button:active {
@@ -374,7 +375,7 @@ h1.top {
     align-items: center;
     width: 100%;
     padding: 1rem 1.25rem;
-    font-size: 2rem;
+    font-size: 1.5em;
     color: #62626D;
     background-color: transparent;
     border: 3px solid rgba(239,169,153,.125);
@@ -415,7 +416,7 @@ h1.top {
 #footer a {
     text-decoration: none;
     color: #E05344;
-    font-size: 16px;
+    font-size: .75em;
 }
 #footer a:hover {
     color: #62626D;
@@ -450,13 +451,13 @@ h1.top {
         align-items: center;
     }
     h1 {
-        font-size: 35px;
+        font-size: 2.5em;
     }
      /* HOW TO PLAY */
     .tips_h2 {
         font-weight: 100;
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 2em;
     }
     .tips_p {
         font-weight: normal;
@@ -466,7 +467,7 @@ h1.top {
     }
 /* FOOTER */
     #footer a {
-        font-size: 12px;
+        font-size: 1em;
     }
 }
 
@@ -477,7 +478,7 @@ h1.top {
 }
 @media screen and (max-width: 750px) { 
     .home_p {
-        font-size: 15px;
+        font-size: 1em;
     }
     .strip3 {
         display: none;
@@ -485,16 +486,16 @@ h1.top {
 }
 
 
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 450px) { 
     /* general styling */
     h1 {
-        font-size: 30px;
+        font-size: 2.5em;
         color: #E05344;
         margin: 0;
         font-family: 'Nunito Sans', sans-serif;
     }
     h2 {
-        font-size: 25px;
+        font-size: 2em;
         color: #E05344;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -503,7 +504,7 @@ h1.top {
         font-family: 'Nunito Sans', sans-serif;
     }
     p {
-        font-size: 20px;
+        font-size: 1em;
         color: #62626D;
         font-family: 'Nunito Sans', sans-serif;
     }
@@ -511,15 +512,18 @@ h1.top {
         margin-top: 60px;
     }
     .home_p {
-        font-size: 20px;
+        font-size: 1em;
     }
     .button_cont {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px;
+        padding: 5px;
         background-color: #F6E2D5;
     }
+    /* .navbar-light .navbar-nav .nav-link {
+        font-size: 20px;
+    } */
     /*/ hOME */
     /* body {
         /* overflow: hidden; 
@@ -532,7 +536,7 @@ h1.top {
         margin: 10vw;
     } */
     .hero.overview {
-        margin-top: 140px;
+        margin-top: 100px;
     }
     .strip3 {
         display: none;
@@ -557,12 +561,21 @@ h1.top {
     
     /* FOOTER */
     #footer a {
-        font-size: 10px;
+        font-size: 1em;
     }
     #footer {
         align-items: left;
         margin-left: auto;
         padding: 30px;
+    }
+    ul {
+        text-align: left;
+        margin: 10px;
+        padding-left: 0px;
+    }
+    .hero {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -570,7 +583,7 @@ h1.top {
 
 /* FOOTER */
 #footer a {
-    font-size: 10px;
+    font-size: 1em;
 }
 #footer {
     align-items: left;
