@@ -30,7 +30,6 @@ let allQuestions = {
     "how would you tell me you're mad at me?",
     "what is one thing we HAVE to agree on?",
     "what always makes you laugh?",
-    "do you believe in the institution of marriage?",
     "what is something you want to know about me, but feel weird asking?",
     "who was the most important person to you in your childhood?",
     "what are you most excited about this month",
@@ -54,9 +53,12 @@ let allQuestions = {
     "what would you tell your teenage self?",
     "what is one systemic problem you've tried to solve?",
     "what movie(s) define you?",
-    "what's something that really bothers you?"
-
+    "what's something that really bothers you?",
+    "what is your fave household item",
+    "what is something you've always wanted to try?",
+    "what always makes you happy?"
   ],
+
   professional: [
     "who is your hero and why?",
     "tell us about your earliest childhood memories?",
@@ -161,6 +163,11 @@ let allQuestions = {
     "what kind of work gets you into a state of flow?",
     "what is your best skill?",
     "can money buy happiness?",
+    "what movie(s) define you?",
+    "what's something that really bothers you?",
+    "what is your fave household item",
+    "what is something you've always wanted to try?",
+    "what always makes you happy?"
   ]
 };
 
