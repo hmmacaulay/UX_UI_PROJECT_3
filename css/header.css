@@ -575,6 +575,7 @@ h1.top {
         align-items: left;
         margin-left: auto;
         padding: 30px;
+        padding-top: 50px;
     }
     .hero {
         padding-left: 0;
