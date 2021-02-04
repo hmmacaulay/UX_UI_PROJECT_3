@@ -106,7 +106,7 @@ a:hover {
     padding-right: 20px;
     /* margin-left: 20vw; */
     /* font-style: bold; */
-    box-shadow: 1px 1px 100px #6b5f5f40;
+    box-shadow: 1px 1px 10px #6b5f5f40;
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
 }
